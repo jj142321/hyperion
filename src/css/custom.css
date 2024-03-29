@@ -1,0 +1,31 @@
+:root {
+  --ifm-color-primary: black;
+  --ifm-toc-border-color: transparent;
+  --ifm-navbar-shadow: none;
+  --prism-background-color: transparent !important;
+  --ifm-menu-color: black;
+  --ifm-menu-color-background-hover: transparent;
+  --ifm-menu-color-background-active: transparent;
+}
+
+body {
+  font-family: sans !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: serif !important;
+  font-size: 18px;
+}
+
+.menu__caret {
+  display: none;
+}
+
+a {
+  color: blue;
+}
