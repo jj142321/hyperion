@@ -21,7 +21,13 @@ export default function Home(): JSX.Element {
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />"
     >
-      Hyperion
+      <div style={{ marginLeft: "50px" }}>
+        Hyperion
+        <br />
+        <div>
+          <a href="/docs/intro">Wiki</a>
+        </div>
+      </div>
     </Layout>
   );
 }
